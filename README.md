@@ -2,14 +2,18 @@
 
 **AI-native blockchain intelligence & security for AI agents.**
 
+## Required Environment Variable
+
+```bash
+# Required - set before using this skill
+export ARGUS_ENDPOINT="https://argus.getfailsafe.com"
+```
+
 ## Quick Start
 
 ```bash
 # Install via ClawHub
 clawhub install argus-intelligence
-
-# Or set endpoint directly
-export ARGUS_ENDPOINT="https://argus.getfailsafe.com"
 ```
 
 ## What is ARGUS?
@@ -48,8 +52,17 @@ curl -X POST https://argus.getfailsafe.com/api/v1/free/query \
 
 ## Version
 
-**v1.4.0** - HTTPS endpoint, A2A /message support, prompt security, free tier, referrals, watchlist monitoring
+**v1.5.0** - HTTPS via Cloudflare, cost-optimized inference, production deployment
+
+## Payment Verification
+
+For paid endpoints, ARGUS uses x402 protocol. Treasury addresses:
+
+| Network | Address | Verify On |
+|---------|---------|-----------|
+| Base | `0x8518E91eBcb6bE76f478879720bD9759e01B7954` | [BaseScan](https://basescan.org/address/0x8518E91eBcb6bE76f478879720bD9759e01B7954) |
+| Solana | `Ntx61j81wkQFLT5MGEKvMtazxH4wh6iXUNMtidgxXYH` | [Solscan](https://solscan.io/account/Ntx61j81wkQFLT5MGEKvMtazxH4wh6iXUNMtidgxXYH) |
 
 ---
 
-Built by Failsafe Security Inc.
+Built by [Failsafe Security Inc.](https://getfailsafe.com)

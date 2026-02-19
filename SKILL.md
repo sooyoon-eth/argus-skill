@@ -1,7 +1,7 @@
 ---
 name: argus-intelligence
 description: Blockchain intelligence & AI security. Token analysis, address risk, smart money tracking, AML compliance, and prompt injection detection. Free tier (3/day). Pay-per-query via x402.
-version: 1.4.0
+version: 1.5.0
 requires:
   env:
     - ARGUS_ENDPOINT
