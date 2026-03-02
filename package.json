@@ -1,7 +1,7 @@
 {
   "name": "argus-intelligence",
-  "version": "1.5.0",
-  "description": "Blockchain intelligence & AI security. Token analysis, address risk, smart money tracking, AML compliance, and prompt injection detection. Free tier (3/day). Pay-per-query via x402.",
+  "version": "1.9.2",
+  "description": "Blockchain intelligence & AI security. Token analysis, address risk, smart money tracking, AML compliance, and prompt injection detection. Free tier (3/day, 1-min cooldown). Pay-per-query via x402 or Stripe credits.",
   "main": "SKILL.md",
   "keywords": [
     "blockchain",
@@ -11,7 +11,10 @@
     "compliance",
     "security",
     "prompt-injection",
-    "x402"
+    "x402",
+    "stripe-credits",
+    "a2a",
+    "webhooks"
   ],
   "author": "Failsafe Security Inc.",
   "license": "MIT",
