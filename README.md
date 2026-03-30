@@ -1,4 +1,4 @@
-# ARGUS Intelligence Skill for ClawHub
+# ARGUS: Free Onchain Intel & Risk Scanner
 
 **Free onchain intel and risk scanner for AI agents.**
 
@@ -12,7 +12,7 @@ export ARGUS_ENDPOINT="https://argus.getfailsafe.com"
 
 ```bash
 # Install via ClawHub
-clawhub install argus-intelligence
+clawhub install argus-free-onchain-intel
 ```
 
 ## What is ARGUS?

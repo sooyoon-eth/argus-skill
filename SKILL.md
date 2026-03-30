@@ -1,5 +1,5 @@
 ---
-name: argus-intelligence
+name: argus-free-onchain-intel
 description: Free onchain intel and risk scanner. Basically free for most users with 35 free queries a day, then only costs $0.03/query. Token analysis, address risk, smart money tracking, AML compliance, and prompt injection detection.
 version: 1.9.2
 requires:
